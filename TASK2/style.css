@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.row-1 {
+  padding: 0px 25px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.row-2 {
+  background-color: orange;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  word-spacing: 3;
+  text-align: center;
+  padding: 30px;
+}
+.row-3 {
+  display: flex;
+}
+.row-3-right {
+  padding: 25px;
+}
+.row-4 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px 10px;
+}
+.row-5 {
+  margin: 25px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.image-1 {
+  /* border-radius: 50%; */
+  border: 2px black dotted;
+  margin: 25px 0px;
+  width: 250px;
+  height: 300px;
+}
+.image-2 {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+.head-1 {
+  font-size: 3rem;
+  font-family: "Cormorant Garamond", serif;
+}
+.head-2 {
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.head-3 {
+  text-align: center;
+  font-family: joan;
+  font-size: 27px;
+  padding-bottom: 20px;
+}
+.head-4 {
+  color: black;
+  font-size: 25px;
+  font-family: joan;
+  padding-bottom: 10px;
+}
+.head-5 {
+  text-align: center;
+  font-family: "Trirong";
+}
+.content {
+  /* padding: 20px 0px; */
+  font-size: 17px;
+  font-family: "Taviraj", serif;
+}
+
+ul li {
+  word-spacing: 2;
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: "Cormorant Garamond  ";
+  font-weight: 300;
+  list-style: none;
+}
+.shivaji {
+  width: 400px;
+  padding: 10px;
+}
+.weapons {
+  padding: 13px;
+  width: 278px;
+}
+hr {
+  margin-top: 10px;
+  width: 100%;
+}
+.slogan {
+  padding: 10px;
+  font-size: 21px;
+  font-family: ubuntu;
+  font-weight: 300;
+}
+
+footer {
+  background-image: url("./cool-background-2.png");
+  padding: 10px;
+  text-align: center;
+}
