@@ -1,0 +1,5 @@
+.fa-check-square:before {
+  content: "\f14a";
+  font-size: 2rem;
+  margin: 12px;
+}
